@@ -80,10 +80,11 @@ ng serve
 🖌️ Contribution
 
 🎉 Wanna join the fun? Pull requests are welcome! Let’s make it awesome together.
-
+---
+---
 📖 French Version
 
-💬✨ Interface de Messagerie en Direct 🌟🚀
+💬✨ **Interface de Messagerie en Direct** 🌟🚀
 
 👋 Bienvenue dans notre projet incroyable ! Cette application de messagerie en direct est votre solution idéale pour une communication en temps réel, créée avec amour et des technologies de pointe ! Fabriqué avec 💻 Angular TS, 🎨 Tailwind CSS, et propulsé par un backend robuste 🌐 Spring Boot.
 

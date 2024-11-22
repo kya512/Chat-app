@@ -3,14 +3,16 @@ import { RouterOutlet } from '@angular/router';
 import { MainContentComponent } from './main-content/main-content/main-content.component';
 import { SideMenuComponent } from './side-menu/side-menu/side-menu.component';
 import { ParticipantListComponent } from './participant-list/participant-list.component';
+import { SearchBarComponent } from "./components/search-bar/search-bar.component";
 
 @Component({
   selector: 'app-root',
   imports: [
     MainContentComponent,
     SideMenuComponent,
-    ParticipantListComponent
-  ],
+    ParticipantListComponent,
+    SearchBarComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

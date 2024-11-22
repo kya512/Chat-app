@@ -40,7 +40,7 @@
 ### **🔧 Prerequisites**  
 - **Node.js** (v18 or later) 🟢  
 - **Angular CLI** (latest version) 🛠️  
-- **Java 17+** ☕  
+- **Kotlin 17+** 🦹‍♀️
 
 ---
 
@@ -80,10 +80,12 @@ ng serve
 🖌️ Contribution
 
 🎉 Wanna join the fun? Pull requests are welcome! Let’s make it awesome together.
+---
+---
 
 📖 French Version
 
-💬✨ Interface de Messagerie en Direct 🌟🚀
+# 💬✨ **Interface de Messagerie en Direct** 🌟🚀
 
 👋 Bienvenue dans notre projet incroyable ! Cette application de messagerie en direct est votre solution idéale pour une communication en temps réel, créée avec amour et des technologies de pointe ! Fabriqué avec 💻 Angular TS, 🎨 Tailwind CSS, et propulsé par un backend robuste 🌐 Spring Boot.
 
@@ -94,27 +96,34 @@ ng serve
 🌍 Langues
 Anglais 🇬🇧
 Français 🇫🇷
-✨ Fonctionnalités
+---
+###  ✨ **Fonctionnalités**
 ✅ Messagerie en temps réel avec une interface élégante et réactive
 ✅ Architecture modulaire et évolutive 🏗️
 ✅ Mises à jour ultra-rapides grâce aux WebSockets 🚀
 ✅ Thèmes personnalisables 🎨
 
-👩‍💻 Stack Technique
-🌟 Frontend :
+---
 
-Angular (TypeScript) ⚡
-Tailwind CSS 💅
-🌟 Backend :
+### **👩‍💻 Tech Stack**  
+🌟 **Frontend**:  
+- Angular (TypeScript) ⚡   
+- Tailwind CSS 💅  
 
-Spring Boot 💡
-API RESTful 🌐
+🌟 **Backend**:  
+- Spring Boot 💡  
+- RESTful APIs 🌐  
+
+---
+
 🎮 Commencer
 
 🔧 Pré-requis
 Node.js (v18 ou plus récent) 🟢
 Angular CLI (dernière version) 🛠️
-Kotlin 17+ 
+Kotlin 17+ 🦹‍♀️
+
+---
 💻 Installation
 1️⃣ Cloner le dépôt :
 ```
@@ -145,6 +154,6 @@ ng serve
 ```
 🖌️ Contribution
 
-🎉 Vous voulez rejoindre l’aventure ? Les pull requests sont les bienvenues ! Créons quelque chose d’incroyable ensemble.
+## 🎉 Vous voulez rejoindre l’aventure ? Les pull requests sont les bienvenues ! Créons quelque chose d’incroyable ensemble.
 
 💌 Made with ❤️ by Océane, Sandra, and Me (Kelly)! 🚀

@@ -102,21 +102,27 @@ Français 🇫🇷
 ✅ Mises à jour ultra-rapides grâce aux WebSockets 🚀
 ✅ Thèmes personnalisables 🎨
 
-👩‍💻 Stack Technique
-🌟 Frontend :
+---
 
-Angular (TypeScript) ⚡
-Tailwind CSS 💅
-🌟 Backend :
+### **👩‍💻 Tech Stack**  
+🌟 **Frontend**:  
+- Angular (TypeScript) ⚡   
+- Tailwind CSS 💅  
 
-Spring Boot 💡
-API RESTful 🌐
+🌟 **Backend**:  
+- Spring Boot 💡  
+- RESTful APIs 🌐  
+
+---
+
 🎮 Commencer
 
 🔧 Pré-requis
 Node.js (v18 ou plus récent) 🟢
 Angular CLI (dernière version) 🛠️
 Kotlin 17+ 🦹‍♀️
+
+---
 💻 Installation
 1️⃣ Cloner le dépôt :
 ```

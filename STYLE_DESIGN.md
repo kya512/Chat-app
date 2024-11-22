@@ -40,7 +40,7 @@ Les couleurs sont une partie essentielle de notre identité visuelle. Voici les 
 
 La typographie permet d'ajouter du caractère à notre projet. Voici les polices et les tailles recommandées :
 
-- **Polices principales** :  
+- **Polices principales** : ✨
   - **Font** : *Roboto*  
   - Utilisation : Texte principal, menus, labels.  
   - Alternative : *Helvetica* (si Roboto n'est pas disponible).

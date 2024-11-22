@@ -1,59 +1,159 @@
-# OckiesApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
+# 💬✨ **Live Messaging Interface** 🌟🚀  
 
-## Development server
+👋 **Welcome to our amazing project!** This live messaging app is your go-to for real-time communication, built with love and cutting-edge tech! Made with 💻 **Angular TS**, 🎨 **Tailwind CSS**, and powered by a robust 🌐 **Spring Boot backend**.  
 
-To start a local development server, run:
+👯‍♀️ Created by the dynamic trio: **Océane**, **Sandra**, and 🫶 **Me ( Kelly )**!  
 
+ [![My Skills](https://skillicons.dev/icons?i=tailwind,kotlin,angular,nodejs,sqlite)](https://skillicons.dev)
+---
+
+## 📝 **Project Overview**  
+
+### 🌍 **Languages**  
+- **English** 🇬🇧  
+- **Français** 🇫🇷  
+
+---
+
+### **✨ Features**  
+✅ Real-time messaging with a sleek, responsive UI  
+✅ Fully modular and scalable architecture 🏗️  
+✅ Blazing-fast updates thanks to WebSockets 🚀  
+✅ Customizable themes 🎨  
+
+---
+
+### **👩‍💻 Tech Stack**  
+🌟 **Frontend**:  
+- Angular (TypeScript) ⚡   
+- Tailwind CSS 💅  
+
+🌟 **Backend**:  
+- Spring Boot 💡  
+- RESTful APIs 🌐  
+
+---
+
+## 🎮 **Getting Started**  
+
+### **🔧 Prerequisites**  
+- **Node.js** (v18 or later) 🟢  
+- **Angular CLI** (latest version) 🛠️  
+- **Kotlin 17+** 🦹‍♀️
+
+---
+
+### **💻 Installation**  
+
+#### 1️⃣ Clone the Repo:  
 ```bash
+git clone https://github.com/yourusername/live-messaging-interface.git
+```
+
+2️⃣ Navigate to the Project Folder:
+```
+cd live-messaging-interface
+```
+3️⃣ Install Dependencies:
+
+Frontend:
+```
+cd frontend  
+npm install
+```
+
+Backend:
+Make sure to configure your database in application.properties. Then:
+```
+cd backend  
+./mvnw spring-boot:run
+```
+
+4️⃣ Run the App 🚀
+
+Frontend:
+```
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🖌️ Contribution
 
-## Code scaffolding
+🎉 Wanna join the fun? Pull requests are welcome! Let’s make it awesome together.
+---
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+📖 French Version
 
-```bash
-ng generate component component-name
+# 💬✨ **Interface de Messagerie en Direct** 🌟🚀
+
+👋 Bienvenue dans notre projet incroyable ! Cette application de messagerie en direct est votre solution idéale pour une communication en temps réel, créée avec amour et des technologies de pointe ! Fabriqué avec 💻 Angular TS, 🎨 Tailwind CSS, et propulsé par un backend robuste 🌐 Spring Boot.
+
+👯‍♀️ Réalisé par le trio dynamique : Océane, Sandra, et 🫶 Kelly ( c'est moi hehe) !
+
+📝 Aperçu du Projet
+
+🌍 Langues
+Anglais 🇬🇧
+Français 🇫🇷
+---
+###  ✨ **Fonctionnalités**
+✅ Messagerie en temps réel avec une interface élégante et réactive
+✅ Architecture modulaire et évolutive 🏗️
+✅ Mises à jour ultra-rapides grâce aux WebSockets 🚀
+✅ Thèmes personnalisables 🎨
+
+---
+
+### **👩‍💻 Tech Stack**  
+🌟 **Frontend**:  
+- Angular (TypeScript) ⚡   
+- Tailwind CSS 💅  
+
+🌟 **Backend**:  
+- Spring Boot 💡  
+- RESTful APIs 🌐  
+
+---
+
+🎮 Commencer
+
+🔧 Pré-requis
+Node.js (v18 ou plus récent) 🟢
+Angular CLI (dernière version) 🛠️
+Kotlin 17+ 🦹‍♀️
+
+---
+💻 Installation
+1️⃣ Cloner le dépôt :
 ```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
+git clone https://github.com/yourusername/live-messaging-interface.git
 ```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
+2️⃣ Accéder au dossier du projet :
 ```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
+cd live-messaging-interface
 ```
+3️⃣ Installer les dépendances :
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
+Frontend :
 ```
+cd frontend  
+npm install
+```  
+Backend :
+Configurez votre base de données dans application.properties. Puis :
+```
+cd backend  
+./mvnw spring-boot:run
+```
+4️⃣ Lancer l’application 🚀
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Frontend :
+```
+ng serve
+```
+🖌️ Contribution
 
-## Additional Resources
+## 🎉 Vous voulez rejoindre l’aventure ? Les pull requests sont les bienvenues ! Créons quelque chose d’incroyable ensemble.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+💌 Made with ❤️ by Océane, Sandra, and Me (Kelly)! 🚀

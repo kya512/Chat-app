@@ -1,7 +1,25 @@
  <!--Pour que l'interface prennent l'entièreté de l'écran-->
-  <div class="grid md:grid-cols-7 w-full h-full"><!--séparation en 7 colonne sur un écran de plus de 768px(tablette et pc) et seul la liste des messages et visible à partir de 425px (mobile L , M et SM) // navbar pour afficher les autres pages-->
+  <div class="flex md:grid md:grid-cols-7 w-full h-full overflow-hidden">
+    <!--séparation en 7 colonne sur un écran de plus de 768px(tablette et pc) et seul la liste des messages et visible à partir de 425px (mobile L , M et SM) // navbar pour afficher les autres pages-->
 
-    <app-side-menu class=" md:block col-span-full md:col-span-2 "></app-side-menu><!--prends 2 colonne de place <768px-->
+      <!--Menu de côté avec l'option de visibilté sur les écrans >768px -->
+    <div class="md:relative md:block col-span-full md:col-span-2 ">
+
+     <!--Boutton d'ouverture -->
+      <button (click)="setSideMenuVisible()" [ngClass]="{'hidden' : isSideMenuVisible }" class="lg:hidden">
+        <svg class=" absolute left-3 top-3  hover:hidden z-10 hover:-z-10 " xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#d79d5b" d="M247.2 17c-22.1-3.1-44.6 .9-64.4 11.4l-74 39.5C89.1 78.4 73.2 94.9 63.4 115L26.7 190.6c-9.8 20.1-13 42.9-9.1 64.9l14.5 82.8c3.9 22.1 14.6 42.3 30.7 57.9l60.3 58.4c16.1 15.6 36.6 25.6 58.7 28.7l83 11.7c22.1 3.1 44.6-.9 64.4-11.4l74-39.5c19.7-10.5 35.6-27 45.4-47.2l36.7-75.5c9.8-20.1 13-42.9 9.1-64.9l-14.6-82.8c-3.9-22.1-14.6-42.3-30.7-57.9L388.9 57.5c-16.1-15.6-36.6-25.6-58.7-28.7L247.2 17zM208 144a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM144 336a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm224-64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+        <svg class=" absolute left-3 top-3  hover:hidden z-10" xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#d79d5b" d="M257.5 27.6c-.8-5.4-4.9-9.8-10.3-10.6c-22.1-3.1-44.6 .9-64.4 11.4l-74 39.5C89.1 78.4 73.2 94.9 63.4 115L26.7 190.6c-9.8 20.1-13 42.9-9.1 64.9l14.5 82.8c3.9 22.1 14.6 42.3 30.7 57.9l60.3 58.4c16.1 15.6 36.6 25.6 58.7 28.7l83 11.7c22.1 3.1 44.6-.9 64.4-11.4l74-39.5c19.7-10.5 35.6-27 45.4-47.2l36.7-75.5c9.8-20.1 13-42.9 9.1-64.9c-.9-5.3-5.3-9.3-10.6-10.1c-51.5-8.2-92.8-47.1-104.5-97.4c-1.8-7.6-8-13.4-15.7-14.6c-54.6-8.7-97.7-52-106.2-106.8zM208 144a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM144 336a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm224-64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>      </button>
+
+      <!--Boutton de fermeture -->
+      <button (click)="setSideMenuInvisible()" [ngClass]="{'hidden' : !isSideMenuVisible }" class="lg:hidden absolute z-50 right-3 top-3 w-fit transition-all hover:rotate-90 ">
+        <svg xmlns="http://www.w3.org/2000/svg" height="17" width="12" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path  class="hover:fill-red-700" fill="#ffffff" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+      </button>
+      <app-side-menu  class="hidden lg:block absolute w-full h-full overflow-x-hidden  overflow-y-scroll z-40"></app-side-menu><!--prends 2 colonne de place <768px-->
+      <app-side-menu [ngClass]="{'hidden' : !isSideMenuVisible , 'block' : isSideMenuVisible}"  class="lg:hidden absolute w-full h-full overflow-x-hidden  overflow-y-scroll z-40"></app-side-menu><!--prends 2 colonne de place <768px-->
+    </div>
+
+
+
     <app-main-content class=" md:block col-span-full md:col-span-3 "></app-main-content><!--prends 3 colonne de place-->
     <app-participant-list class=" md:block col-span-full md:col-span-2 "></app-participant-list><!--prends 2 colonne de place-->
 

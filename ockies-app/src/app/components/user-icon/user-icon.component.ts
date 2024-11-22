@@ -14,11 +14,18 @@ import { NgClass, NgStyle } from '@angular/common';
 
 export class UserIconComponent implements OnInit{
    @Input() user! :User ;
+   isLoading! : boolean ;
 
    ngOnInit(): void {
     if (!this.user) {
       this.user = new User(); // Si il n'y a pas d'object pour l'utilisateur on utilise celui par défaut
     }
+    this.isLoading = true;
+    setTimeout(()=>{                        
+      this.isLoading = false;
+     }, 2000);
    }
+
+
    
 }

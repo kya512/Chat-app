@@ -12,11 +12,8 @@ import { NgStyle } from '@angular/common';
 })
 export class UserComponent implements OnInit {
 
-  @Input() userInfo! : User; /*On utilise la classe user pour créer différent object User */
 
   ngOnInit(): void {
-
-      
   }
 
 }

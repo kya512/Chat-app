@@ -22,8 +22,13 @@ Les couleurs sont une partie essentielle de notre identité visuelle. Voici les 
   - Couleur : #A0A0A0  
   - Utilisation : Texte moins important, sous-titres, descriptions.
 
+  - **🔘 Input d'entrée de Test** :  
+  - Couleur :   #222226  
+  - Utilisation : Input de texte ou de recherche.
+
+
 - **🔵 Accent principal** :  
-  - Couleur : #007BFF  
+  - Couleur : #0ea5e9 (sky-500 avec tailwind css)
   - Utilisation : Boutons principaux, liens, éléments interactifs.
 
 - **🌟 Éléments interactifs** :  

@@ -1,0 +1,6 @@
+<li class="lg:min-w-20 min-w-16 h-32">
+  <div class="relative h-fit md:col-span-1 col-span-1">
+      <img class="lg:w-16 lg:h-16 md:w-10 md:h-10 h-14 w-14 rounded-full object-cover" [src]="user.avatar" [alt]="user.userName">
+      <span [ngClass]="{'bg-green-400' :user.stateOnline , 'bg-red-400' :!user.stateOnline }" class="lg:bottom-0 md:-bottom-2  bottom-0 lg:left-11 md:left-6 left-10   absolute w-6 h-6  md:w-4 md:h-4 lg:w-5 lg:h-5 border-2 border-white dark:border-gray-800 rounded-full"></span>
+  </div>
+</li>

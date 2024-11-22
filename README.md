@@ -40,7 +40,7 @@
 ### **🔧 Prerequisites**  
 - **Node.js** (v18 or later) 🟢  
 - **Angular CLI** (latest version) 🛠️  
-- **Kotlin 17+** ☕  
+- **Kotlin 17+** 🦹‍♀️
 
 ---
 
@@ -116,7 +116,7 @@ API RESTful 🌐
 🔧 Pré-requis
 Node.js (v18 ou plus récent) 🟢
 Angular CLI (dernière version) 🛠️
-Kotlin 17+ 
+Kotlin 17+ 🦹‍♀️
 💻 Installation
 1️⃣ Cloner le dépôt :
 ```

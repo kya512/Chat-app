@@ -127,7 +127,7 @@ Kotlin 17+ 🦹‍♀️
 💻 Installation
 1️⃣ Cloner le dépôt :
 ```
-git clone https://github.com/yourusername/live-messaging-interface.git
+git clone https://github.com/kya512/live-messaging-interface.git
 ```
 2️⃣ Accéder au dossier du projet :
 ```

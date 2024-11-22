@@ -133,5 +133,3 @@ Les classes principales sont :
    - Attributs : notifications et alertes (contenu et type).  
 
    - Méthodes : afficher et effacer les notifications.  
-
-Si vous avez besoin de modifier ou d'ajouter des détails, je suis là pour vous aider ! 😊

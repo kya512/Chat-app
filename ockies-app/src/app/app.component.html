@@ -1,8 +1,9 @@
-<h1 class="text-3xl text-amber-400 font-bold underline">
-  Hello world!
-</h1>
-<div>
-  <app-side-menu></app-side-menu>
-  <app-main-content></app-main-content>
-  <app-participant-list></app-participant-list>
+<div class="w-full h-full "> <!--Pour que l'interface prennent l'entièreté de l'écran-->
+  <div class="grid md:grid-cols-7"><!--séparation en 7 colonne sur un écran de plus de 768px(tablette et pc) et seul la liste des messages et visible à partir de 425px (mobile L , M et SM) // navbar pour afficher les autres pages-->
+
+    <app-side-menu class=" md:block col-span-full md:col-span-2 "></app-side-menu><!--prends 2 colonne de place <768px-->
+    <app-main-content class=" md:block col-span-full md:col-span-3 "></app-main-content><!--prends 3 colonne de place-->
+    <app-participant-list class=" md:block col-span-full md:col-span-2 "></app-participant-list><!--prends 2 colonne de place-->
+
+  </div>
 </div>

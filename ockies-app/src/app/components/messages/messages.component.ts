@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-messages',
@@ -6,6 +6,22 @@ import { Component } from '@angular/core';
   templateUrl: './messages.component.html',
   styleUrl: './messages.component.css'
 })
-export class MessagesComponent {
+export class MessagesComponent implements OnInit{
 
+  message!: string = '';
+
+  sendMessage(): void {
+    if (this.message.trim()) {
+      console.log('Message envoyé:', this.message);
+      this.message = ''; // Réinitialise
+    }
+  }
+
+  /*handleMicClick(): void {
+    console.log('Microphone activé');
+  }*/ 
+
+  AttachClick(): void {
+    console.log('Attachement ouvert');
+  }
 }

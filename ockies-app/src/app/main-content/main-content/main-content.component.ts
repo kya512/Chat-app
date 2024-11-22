@@ -8,7 +8,19 @@ import { CharteGraphiqueComponent } from '../../charte-graphique/charte-graphiqu
   templateUrl: './main-content.component.html',
   styleUrl: './main-content.component.css'
 })
-export class MainContentComponent {
+export class MainContentComponent implements OnInit {
 
-  
+  messages = [
+    { content: 'Salut, comment ça va ?', isSender: false },
+    { content: 'Ça va bien, merci ! Et toi ?', isSender: true },
+    { content: 'Je vais bien aussi, merci.', isSender: false },
+    { content: 'Cool, tu fais quoi en ce moment ?', isSender: true }
+  ];
+
+  MessageFromUser(message: { content: string; isSender: boolean }): boolean {
+    return message.isSender;
+  }  /*vérifier si le message est envoyé par l'utilisateur
+  return boolean, True si le message est envoyé par l'utilisateur, False sinon
+  */
+
 }

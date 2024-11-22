@@ -8,8 +8,6 @@ import { Component, EvenEmitter, Output, OnInit} from '@angular/core';
 })
 export class SearchBarComponent implements OnInit{
 
-
-
   @Output() inputChange = new EventEmitter<string>();
   @Output() buttonClick = new EventEmitter<void>();
 

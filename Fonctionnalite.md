@@ -66,3 +66,72 @@ Voici les couleurs principales :
    - Zone de saisie de texte.
    - Bouton "Envoyer". 📨
 
+
+
+
+---
+---
+
+# **Diagramme de classe**
+
+Voici un diagramme de classe basé sur votre description, intégrant les fonctionnalités, composants, et autres éléments décrits : 
+
+---
+
+### **Diagramme de Classe**
+
+Les classes principales sont :
+
+1. **Utilisateur**
+2. **Message**
+3. **Groupe**
+4. **Médias**
+5. **Interface**
+6. **BarreNavigation**
+7. **SystèmeDeNotification**
+
+
+![Diagramme De Classe UML](Classe_UML.png)
+
+
+---
+
+### Explication des classes 🤓
+
+1. **Utilisateur** 🐥
+
+   - Attributs : inclut l'avatar, le nom, le statut, l'activité et l'état en ligne. 
+
+   - Méthodes : envoyer des messages, rejoindre des groupes, partager des médias.  
+
+2. **Message** 📧
+   - Attributs : contenu (texte, audio, image, fichier), type, horodatage, et réactions. 
+
+   - Méthodes : ajouter des réactions et afficher un message.  
+
+3. **Groupe** 🏘️
+   - Attributs : inclut les participants et les messages d'un groupe.  
+
+   - Méthodes : ajouter un participant et envoyer des messages dans le groupe.  
+
+4. **Médias**  
+   - Attributs : contient les fichiers partagés et leurs types (image, vidéo, etc.). ⛺️
+
+   - Méthodes : télécharger et afficher des médias.  
+
+5. **Interface** 💻
+   - Attributs : couleur de fond, thème, et composants chargés.  🖍️
+
+   - Méthodes : charger l'interface, afficher la barre de navigation.  
+
+6. **BarreNavigation**  ⛵️
+   - Attributs : boutons pour la navigation.  
+
+   - Méthodes : ouvrir un menu et naviguer entre les pages.  
+
+7. **SystèmeDeNotification**  📳
+   - Attributs : notifications et alertes (contenu et type).  
+
+   - Méthodes : afficher et effacer les notifications.  
+
+Si vous avez besoin de modifier ou d'ajouter des détails, je suis là pour vous aider ! 😊

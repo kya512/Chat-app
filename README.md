@@ -40,7 +40,7 @@
 ### **🔧 Prerequisites**  
 - **Node.js** (v18 or later) 🟢  
 - **Angular CLI** (latest version) 🛠️  
-- **Java 17+** ☕  
+- **Kotlin 17+** ☕  
 
 ---
 

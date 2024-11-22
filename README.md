@@ -48,7 +48,7 @@
 
 #### 1️⃣ Clone the Repo:  
 ```bash
-git clone https://github.com/yourusername/live-messaging-interface.git
+git clone https://github.com/yourusername/Chat-app.git
 ```
 
 2️⃣ Navigate to the Project Folder:
@@ -127,7 +127,7 @@ Kotlin 17+ 🦹‍♀️
 💻 Installation
 1️⃣ Cloner le dépôt :
 ```
-git clone https://github.com/yourusername/live-messaging-interface.git
+git clone https://github.com/yourusername/Chat-app.git
 ```
 2️⃣ Accéder au dossier du projet :
 ```

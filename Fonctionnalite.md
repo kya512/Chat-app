@@ -15,10 +15,15 @@
 L'interface présente des fonctionnalités supplémentaires ou modifiées :✨
 
 - **Profil utilisateur** visible avec un avatar, nom, et statut.👤
+
 - **Liste des utilisateurs en ligne**.👥🟢
+
 - **Messagerie en groupe et individuelle** avec état (ex. "is typing", messages vocaux, images partagées).🗣️💌
+
 - **Médias partagés** visibles dans la conversation (images, fichiers, etc.).🎇🤳
+
 - **Participants au groupe** listés avec leurs statuts.
+
 - 💻 Indication d'activité comme "D-Live".🫂
 
 ---

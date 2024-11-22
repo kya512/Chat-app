@@ -1,4 +1,10 @@
-<app-main-content></app-main-content>
+
+
+
+
+<!--Search bar -->
+<app-search-bar></app-search-bar>
+
 
 <!-- <div *ngFor="let message of messages" class="mb-4 flex">
 
@@ -13,3 +19,32 @@
   </div>
 
 </div> -->
+
+
+
+<!--
+
+Code écrit par Océane:
+
+Je pense plutôt que cette implémentation est meilleur
+regarde le cours de open classroom pour les boucles [ chapitre 3: Affichez des listes]
+
+@for (let message of messages; track message.content){
+  <div class="mb-4 flex">
+
+    Si le message n'est pas envoyé par l'utilisateur 
+    <div *ngIf="!message.isSender">
+      {{ message.content }}
+    </div>
+  
+     Si le message est envoyé par l'utilisateur 
+    @if( message.isSender){
+    <div >
+            <p>{{ message.content }}</p>
+          </div>
+    }
+
+
+  
+  </div>
+}  -->

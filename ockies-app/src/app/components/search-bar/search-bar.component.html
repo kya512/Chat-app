@@ -1,18 +1,13 @@
 <div>
+<!-- Champ de saisie lié à un contrôle de formulaire Angular -->
+<!-- [formControl]="searchText" : Lie le champ de saisie à l'objet FormControl nommé 'searchText'. -->
+<!-- placeholder="Your message..." : Affiche un texte indicatif quand le champ est vide. -->
+<!-- class="...": Ajoute des classes CSS pour le style, comme bordures, couleurs, et alignement. -->
 
-    <app-search-bar></app-search-bar>
-
-    <input type="text" placeholder="Your message..." 
-    (input)="onInputChange($event.target.value)"
+    <input type="text" placeholder="Your message..."  [formControl]="searchText"
     class="flex-1 bg-transparent border-none outline-none px-4 text-gray-300 placeholder-gray-500"/>
   
-     <!-- L'objet $event, à la méthode qui gère l'événement. $event contient souvent des informations dont la méthode a besoin,
-     comme le nom d'un utilisateur ou l'URL d'une image. -->
-
-     <!-- L'événement 'target' détermine la forme de l'objet $event 
-    Lorsque l'utilisateur effectue des modifications, le composant déclenche l'événement input.
-    La liaison exécute l'instruction dans un contexte qui inclut l'objet d'événement DOM, $event.-->
-
     <button (click)="onButtonClick()"></button>
-
+<!--A supprimer , il s'agit juste d'un test-->
+    <p>{{searchText.value}}</p>
 </div>

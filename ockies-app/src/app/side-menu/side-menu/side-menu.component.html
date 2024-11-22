@@ -30,11 +30,11 @@
         <!--Liste des amis en lignes-->
         <div class="flex justify-between">
 
-            <h2 class="tracking-wider opacity-85 lg:text-3xl md:text-lg text-2xl">Online now</h2>
+            <h2 class="cool-color-text tracking-wider lg:text-2xl md:text-lg text-2xl font-semibold">Online now</h2>
 
             <!--Nombre d'amis en ligne-->
-            <div class="lg:py-2 lg:px-3 md:py-1 md:px-2 p-2 rounded-lg bg-sky-500 font-light">
-                <p class="hidden">no one is currently online</p> <!--A rendre en fonction du nombre d'amis connecté-->
+            <div class="lg:py-2 lg:px-3 md:py-1 md:px-2 p-2 rounded-lg bg-purple-500 font-light">
+                <p  [ngClass]="{} " class="hidden">no one is currently online</p> <!--A rendre en fonction du nombre d'amis connecté-->
                 <p class="lg:text-md text-sm">{{onlineUserNumber}}</p>  <!--A changer en fonction de la liste de personne ne ligne-->
             </div>
         </div>
@@ -64,13 +64,13 @@
             <!--Messages et chevrons d'ouverture-->
              <div class="flex items-center gap-3">
                     <div>
-                        <h2 class="tracking-wider opacity-85  lg:text-3xl md:text-lg text-2x">Messages</h2>
+                        <h2 class="tracking-wider opacity-85  lg:text-2xl md:text-lg text-2xl">Messages</h2>
                     </div>
                     
                     <!--Chevron down qui s'anime quand on click dessus-->
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-4 lg:h-4 md:w-2 md:h-2 w-4 h-4"  viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
-                </div>
+                    <div >
+                        <svg class="hover:rotate-90" xmlns="http://www.w3.org/2000/svg" class="lg:w-4 lg:h-4 md:w-2 md:h-2 w-4 h-4"  viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path  fill="#ffffff" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                  </div>
 
             </div>
 
@@ -158,7 +158,7 @@
                                     </div>
     
                                     <div >
-                                        <p class="text-secondary font-light text-sm md:text-sm"><span class="text-sky-500">You</span>: Yesterday I bought some chicken nug...</p>
+                                        <p class="text-secondary font-light text-sm md:text-sm"><span class="text-purple-500">You</span>: Yesterday I bought some chicken nug...</p>
                                     </div>
                                 </div>
     
@@ -215,25 +215,6 @@
     
           </div>
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </div>

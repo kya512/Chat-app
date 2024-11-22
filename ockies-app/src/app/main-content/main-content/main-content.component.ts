@@ -1,10 +1,11 @@
 import { Component, OnInit} from '@angular/core';
-import { CharteGraphiqueComponent } from '../../charte-graphique/charte-graphique/charte-graphique.component';
+import { SearchBarComponent } from "../../components/search-bar/search-bar.component";
 @Component({
   selector: 'app-main-content',
   imports: [
-    CharteGraphiqueComponent
-  ],
+    SearchBarComponent
+],
+
   templateUrl: './main-content.component.html',
   styleUrl: './main-content.component.css'
 })
@@ -22,5 +23,9 @@ export class MainContentComponent implements OnInit {
   }  /*vérifier si le message est envoyé par l'utilisateur
   return boolean, True si le message est envoyé par l'utilisateur, False sinon
   */
+
+  ngOnInit(): void {
+      
+  }
 
 }

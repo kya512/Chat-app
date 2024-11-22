@@ -96,7 +96,8 @@ ng serve
 🌍 Langues
 Anglais 🇬🇧
 Français 🇫🇷
-✨ Fonctionnalités
+---
+###  ✨ **Fonctionnalités**
 ✅ Messagerie en temps réel avec une interface élégante et réactive
 ✅ Architecture modulaire et évolutive 🏗️
 ✅ Mises à jour ultra-rapides grâce aux WebSockets 🚀

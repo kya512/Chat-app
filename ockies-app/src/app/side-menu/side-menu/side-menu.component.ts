@@ -12,7 +12,7 @@ export class SideMenuComponent implements OnInit {
   messageCount!:number;
   
   ngOnInit(): void {
-      this.userName = 'johnDoe'
+      this.userName = 'Cookies72'
       this.messageCount = 12
   }
 

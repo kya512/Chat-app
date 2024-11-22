@@ -5,8 +5,10 @@
 
 *{
   margin: 0;
-  paddin:0;
-  box-sizing: border-box
+  padding:0;
+  box-sizing: border-box;
+  border-color: rgb(156, 163 ,175, 0.1);
+  
 }
 
 html, body {
@@ -17,6 +19,15 @@ html, body {
   font-size : 14px; /*taille du texte par défaut*/
   font-family: Roboto , sans-serif;
 }
+
+h1{
+  font-size:30px;
+}
+h2{
+  font-size:24px;
+}
+
+
 
 hr {
   border-color : rgb(156 163 175);

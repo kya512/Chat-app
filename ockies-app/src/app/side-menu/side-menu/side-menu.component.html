@@ -1,7 +1,26 @@
-<div>
-    <h1>Ceci est le menu de côté</h1>
+<div class="w-full  h-full bg-[#222226] border-0 border-r-2 ">
 
-    <app-charte-graphique></app-charte-graphique>
+    <!--Conteneur pour le profil de l'utilsateur-->
+    <div class="flex content-center gap-x-5 border-0 border-b-2  p-10">
+
+        <!--Image de l'utilisateur-->
+        <div class="flex items-center">
+            <div class="relative h-fit">
+                <img class="w-16 h-16 rounded-full" [src]="currUser.avatar" [alt]="currUser.userName">
+                 <!--si il est connecté => vert , si il n'est pas => rouge-->
+                <span [ngClass]="{' bg-green-400' : currUser.stateOnline , 'bg-red-400' : !currUser.stateOnline  }" class ="bottom-0 left-11 absolute  w-5 h-5  border-2 border-white dark:border-gray-800 rounded-full"></span>
+             </div>
+        </div>
+     
+    
+              <!--Nom et status de l'utilisateur-->
+          <div>
+            <h1>{{currUser.userName}}</h1>
+            <p class="text-secondary font-light">{{currUser.statut}}</p>
+          </div>
+
+
+    </div>
 
 
 </div>

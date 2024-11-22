@@ -1,33 +1,26 @@
-import { Component, OnInit } from '@angular/core';
-import { CharteGraphiqueComponent } from '../../charte-graphique/charte-graphique/charte-graphique.component';
+import { Component, Input, OnInit } from '@angular/core';
+import { UserComponent } from '../../components/user/user.component';
+import { User, UserState } from '../../models/user';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-side-menu',
   imports: [ 
-    CharteGraphiqueComponent
+    UserComponent,
+    NgClass
   ],
   templateUrl: './side-menu.component.html',
   styleUrl: './side-menu.component.css'
 })
 export class SideMenuComponent implements OnInit {
+  @Input() currUser! : User; /*instanciation de l'utilisateur actuel */
 
-  userName!:string;
-  messageCount!:number;
-  imageUrl!:string;
-  
+   
   ngOnInit(): void {
-      this.userName = 'Cookies72'
-      this.messageCount = 0
-      this.imageUrl = "../../../design/font_interface.JPG"
+    this.currUser =  new User()// vide car pas encore de requête d'api
   }
+  
 
-  onClickIncrement= () => {
-   this.messageCount++
-  } 
-
-
-  onClickDecrement= () => {
-    this.messageCount--
-   } 
+  
 
 }
